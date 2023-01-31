@@ -12,7 +12,7 @@ TCB has reached out to understand the most important variables when granting loa
 
 ## Data
 
-Data was taken from [kaggle.com](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction). It has financial information on 6,800 companies and if they declared bankruptcy between 1999 and 2009.
+Data was taken from [kaggle.com](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction). It has financial information on 6,800 companies and if they declared bankruptcy between 1999 and 2009. As per the report, company bankruptcy is defined based on the business regulations of the Taiwan Stock Exchange.
 
 This data will be helpful in understanding what factors are indicators a company will go bankrupt and what factors TCB should prioritize.
 
@@ -34,12 +34,12 @@ The original Random Forest Classifier model was the best performing model as it 
 
 ## Suggestions
 
-**Put clients into Red, Amber and Green buckets.** These buckets would be the result of an initial financial analysis and it would be based on if the client has a good financial standing in the top 10 features.
+**Seperate clients into Red, Amber and Green buckets.** These buckets would be the result of an initial financial analysis and it would be based on if the client has a good financial standing in the top 10 features.
 * The "Red" bucket will be clients who have not met the thresholds for the top 10 features and therefore would immediately be rejected.
 * The "Amber" bucket applies to clients who may not meet all of the top 10 features and therefore require some further work.
 * The "Green" bucket applies to clients who have meet all of the top 10 features as those hold the most weight in the model.
 
-**Check client history.** It would be insightful to understand how the client has performed over the last 10 years. This initial test will show the trajectory the client has been on and may raise red flags, if any.
+**Review client history.** It would be insightful to understand how the client has performed over the last 10 years. This initial test will show the trajectory the client has been on and may raise red flags, if any.
 
 ## Next Steps
 
@@ -53,10 +53,12 @@ For additional information, contact Simran Kaur at simran.kaur@flatironschool.co
 
 ## Repository Structure
 ```
+├── data
+│   ├── company-bankruptcy-prediction.zip
+│   ├── data.csv
 ├── images
 │   ├── cm_rf.jpeg
 │   ├── tcb_logo.jpeg
 ├── notebook.ipynb
-├── data.csv
 ├── presentation.pdf
 └── README.md
