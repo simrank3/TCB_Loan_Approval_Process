@@ -47,7 +47,7 @@ The original Random Forest Classifier model was the best performing model as it 
 
 ## Further Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/simrank3/bankruptcy_predictor/blob/main/notebook.ipynb) or review the [presentation](https://github.com/simrank3/bankruptcy_predictor/blob/main/presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/simrank3/TCB_Loan_Approval_Process/blob/main/notebook.ipynb) or review the [presentation](https://github.com/simrank3/TCB_Loan_Approval_Process/blob/main/presentation.pdf).
 
 For additional information, contact Simran Kaur at simran.kaur@flatironschool.com
 
